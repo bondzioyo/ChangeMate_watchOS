@@ -30,69 +30,6 @@ struct ContentView: View {
     
     var body: some View {
         ScrollView {
-            //            VStack {
-            //                if !isTimerRunning && !firstCountDownDone {
-            //                    Text("Ustaw czas")
-            //                        .font(.title3)
-            //                        .padding(.bottom, 2)
-            //
-            //                    HStack {
-            //                        Picker("Minuty", selection: $selectedMinutes) {
-            //                            ForEach(0..<60) { minute in
-            //                                Text(String(format: "%02d", minute))
-            //                            }
-            //                        }
-            //                        .frame(width: 60, height: 60)
-            //                        .pickerStyle(WheelPickerStyle())
-            //
-            //                        Text(":")
-            //
-            //                        Picker("Sekundy", selection: $selectedSeconds) {
-            //                            ForEach(0..<60) { second in
-            //                                Text(String(format: "%02d", second))
-            //                            }
-            //                        }
-            //                        .frame(width: 60, height: 60)
-            //                        .pickerStyle(WheelPickerStyle())
-            //
-            //                    }
-            //                    .padding()
-            //
-            //                    Button("Ustaw Czas") {
-            //                        remainingTime = selectedMinutes * 60 + selectedSeconds
-            //                    }.buttonStyle(BorderedButtonStyle(tint: .green))
-            //
-            //                    Button("Start Timer") {
-            //                        startTimer()
-            //                    }.disabled(remainingTime == 0).cornerRadius(20)
-            //                    Spacer()
-            //                } else {
-            //
-            //                    Text(formatTime(remainingTime))
-            //                        .font(.largeTitle)
-            //                        .padding()
-            //
-            //                    if !isTimerRunning || firstCountDownDone {
-            //                        if showRestartButton { // Wyświetl przycisk restartu po zakończeniu odliczania
-            //                            Button("Powtórz Odliczanie") {
-            //                                restartTimer()
-            //                            }.buttonStyle(BorderedButtonStyle(tint: .green))
-            //                        }
-            //                        Button("Wróć") {
-            //                            firstCountDownDone = false
-            //                        }.cornerRadius(20)
-            //                    } else {
-            //                        Button("Stop Timer") {
-            //                            stopTimer()
-            //                            resetTimer()
-            //                        }
-            //                    }
-            //
-            //                    Spacer()
-            //                }
-            //            }
-            //            .padding()
-            //        }
             VStack{
                 if screen != 2 {
                     Text("ChangeMate™")
