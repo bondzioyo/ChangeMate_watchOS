@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9BF23962AD07EC4008B0A3F /* ChangeMate Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B9BF23952AD07EC4008B0A3F /* ChangeMate Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B9BF239B2AD07EC4008B0A3F /* ChangeMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF239A2AD07EC4008B0A3F /* ChangeMateApp.swift */; };
 		B9BF239D2AD07EC4008B0A3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF239C2AD07EC4008B0A3F /* ContentView.swift */; };
 		B9BF239F2AD07EC6008B0A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BF239E2AD07EC6008B0A3F /* Assets.xcassets */; };
@@ -18,13 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B9BF23972AD07EC4008B0A3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9BF23892AD07EC3008B0A3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9BF23942AD07EC4008B0A3F;
-			remoteInfo = "ChangeMate Watch App";
-		};
 		B9BF23A82AD07EC7008B0A3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9BF23892AD07EC3008B0A3F /* Project object */;
@@ -41,22 +33,7 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B9BF23BE2AD07EC7008B0A3F /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				B9BF23962AD07EC4008B0A3F /* ChangeMate Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		B9BF238F2AD07EC4008B0A3F /* ChangeMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF23952AD07EC4008B0A3F /* ChangeMate Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChangeMate Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF239A2AD07EC4008B0A3F /* ChangeMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMateApp.swift; sourceTree = "<group>"; };
 		B9BF239C2AD07EC4008B0A3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,7 +84,6 @@
 		B9BF23902AD07EC4008B0A3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9BF238F2AD07EC4008B0A3F /* ChangeMate.app */,
 				B9BF23952AD07EC4008B0A3F /* ChangeMate Watch App.app */,
 				B9BF23A72AD07EC7008B0A3F /* ChangeMate Watch AppTests.xctest */,
 				B9BF23B12AD07EC7008B0A3F /* ChangeMate Watch AppUITests.xctest */,
@@ -154,23 +130,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9BF238E2AD07EC4008B0A3F /* ChangeMate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9BF23BF2AD07EC7008B0A3F /* Build configuration list for PBXNativeTarget "ChangeMate" */;
-			buildPhases = (
-				B9BF238D2AD07EC4008B0A3F /* Resources */,
-				B9BF23BE2AD07EC7008B0A3F /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9BF23982AD07EC4008B0A3F /* PBXTargetDependency */,
-			);
-			name = ChangeMate;
-			productName = ChangeMate;
-			productReference = B9BF238F2AD07EC4008B0A3F /* ChangeMate.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
 		B9BF23942AD07EC4008B0A3F /* ChangeMate Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9BF23BB2AD07EC7008B0A3F /* Build configuration list for PBXNativeTarget "ChangeMate Watch App" */;
@@ -234,9 +193,6 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					B9BF238E2AD07EC4008B0A3F = {
-						CreatedOnToolsVersion = 15.0;
-					};
 					B9BF23942AD07EC4008B0A3F = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -263,7 +219,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9BF238E2AD07EC4008B0A3F /* ChangeMate */,
 				B9BF23942AD07EC4008B0A3F /* ChangeMate Watch App */,
 				B9BF23A62AD07EC7008B0A3F /* ChangeMate Watch AppTests */,
 				B9BF23B02AD07EC7008B0A3F /* ChangeMate Watch AppUITests */,
@@ -272,13 +227,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B9BF238D2AD07EC4008B0A3F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9BF23932AD07EC4008B0A3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,11 +282,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B9BF23982AD07EC4008B0A3F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9BF23942AD07EC4008B0A3F /* ChangeMate Watch App */;
-			targetProxy = B9BF23972AD07EC4008B0A3F /* PBXContainerItemProxy */;
-		};
 		B9BF23A92AD07EC7008B0A3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B9BF23942AD07EC4008B0A3F /* ChangeMate Watch App */;
@@ -525,37 +468,6 @@
 			};
 			name = Release;
 		};
-		B9BF23C02AD07EC7008B0A3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_KEY_CFBundleDisplayName = ChangeMate;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bondzioyo.ChangeMate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		B9BF23C12AD07EC7008B0A3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_KEY_CFBundleDisplayName = ChangeMate;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bondzioyo.ChangeMate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		B9BF23C32AD07EC7008B0A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -653,15 +565,6 @@
 			buildConfigurations = (
 				B9BF23BC2AD07EC7008B0A3F /* Debug */,
 				B9BF23BD2AD07EC7008B0A3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9BF23BF2AD07EC7008B0A3F /* Build configuration list for PBXNativeTarget "ChangeMate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9BF23C02AD07EC7008B0A3F /* Debug */,
-				B9BF23C12AD07EC7008B0A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
